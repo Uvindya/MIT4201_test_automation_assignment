@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Login">
+   <classes>
+   	<class name="actitime.LoginTest"/>  
+   </classes>
+  </test> <!-- Test -->
+ 
+  <test name="Reports">
+   <classes>
+   	<class name="actitime.AttendenceReportTest"/>
+   	<class name="actitime.LeaveReportTest"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  <test name="Timesheets">
+   <classes>
+   	<class name="actitime.ViewTimeTrackTest"/>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
