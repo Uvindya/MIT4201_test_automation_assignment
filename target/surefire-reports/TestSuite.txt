@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 225.556 s <<< FAILURE! - in TestSuite
-setBeforeMethod(actitime.LeaveReportTest)  Time elapsed: 17.719 s  <<< FAILURE!
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 248.163 s <<< FAILURE! - in TestSuite
+setBeforeMethod(actitime.LeaveReportTest)  Time elapsed: 17.616 s  <<< FAILURE!
 java.lang.NullPointerException
 	at actitime.LeaveReportTest.setBeforeMethod(LeaveReportTest.java:17)
 

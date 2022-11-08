@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="9" passed="6" failed="0" skipped="1">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-08T23:26:06 IST" name="Suite" finished-at="2022-11-08T23:29:35 IST" duration-ms="209096">
+  <suite started-at="2022-11-09T00:04:28 IST" name="Default suite" finished-at="2022-11-09T00:05:14 IST" duration-ms="46643">
     <groups>
     </groups>
-    <test started-at="2022-11-08T23:26:06 IST" name="Login" finished-at="2022-11-08T23:26:44 IST" duration-ms="37409">
+    <test started-at="2022-11-09T00:04:28 IST" name="Default test" finished-at="2022-11-09T00:05:14 IST" duration-ms="46643">
       <class name="actitime.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:actitime.LoginTest@2cb4893b]" started-at="2022-11-08T23:26:06 IST" name="setUp" finished-at="2022-11-08T23:26:23 IST" duration-ms="16571" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:actitime.LoginTest@8519cb4]" started-at="2022-11-09T00:04:28 IST" name="setUp" finished-at="2022-11-09T00:04:53 IST" duration-ms="25127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginAndLogout(java.lang.String,java.lang.String)[pri:0, instance:actitime.LoginTest@2cb4893b]" started-at="2022-11-08T23:26:24 IST" name="testLoginAndLogout" data-provider="excelDataProviderCorrectUser" finished-at="2022-11-08T23:26:32 IST" duration-ms="7615" status="PASS">
+        <test-method signature="testLoginAndLogout(java.lang.String,java.lang.String)[pri:0, instance:actitime.LoginTest@8519cb4]" started-at="2022-11-09T00:04:54 IST" name="testLoginAndLogout" data-provider="excelDataProviderCorrectUser" finished-at="2022-11-09T00:05:03 IST" duration-ms="9295" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginAndLogout -->
-        <test-method signature="testLoginWrongUser(java.lang.String,java.lang.String)[pri:0, instance:actitime.LoginTest@2cb4893b]" started-at="2022-11-08T23:26:32 IST" name="testLoginWrongUser" data-provider="excelDataProviderInCorrectUser" finished-at="2022-11-08T23:26:37 IST" duration-ms="5422" status="PASS">
+        <test-method signature="testLoginWrongUser(java.lang.String,java.lang.String)[pri:0, instance:actitime.LoginTest@8519cb4]" started-at="2022-11-09T00:05:03 IST" name="testLoginWrongUser" data-provider="excelDataProviderInCorrectUser" finished-at="2022-11-09T00:05:08 IST" duration-ms="5249" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWrongUser -->
-        <test-method signature="testLoginWrongUser(java.lang.String,java.lang.String)[pri:0, instance:actitime.LoginTest@2cb4893b]" started-at="2022-11-08T23:26:37 IST" name="testLoginWrongUser" data-provider="excelDataProviderInCorrectUser" finished-at="2022-11-08T23:26:43 IST" duration-ms="5446" status="PASS">
+        <test-method signature="testLoginWrongUser(java.lang.String,java.lang.String)[pri:0, instance:actitime.LoginTest@8519cb4]" started-at="2022-11-09T00:05:08 IST" name="testLoginWrongUser" data-provider="excelDataProviderInCorrectUser" finished-at="2022-11-09T00:05:14 IST" duration-ms="5271" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,139 +59,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWrongUser -->
-        <test-method is-config="true" signature="afterAll()[pri:0, instance:actitime.LoginTest@2cb4893b]" started-at="2022-11-08T23:26:43 IST" name="afterAll" finished-at="2022-11-08T23:26:44 IST" duration-ms="753" status="PASS">
+        <test-method is-config="true" signature="afterAll()[pri:0, instance:actitime.LoginTest@8519cb4]" started-at="2022-11-09T00:05:14 IST" name="afterAll" finished-at="2022-11-09T00:05:14 IST" duration-ms="761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAll -->
       </class> <!-- actitime.LoginTest -->
-    </test> <!-- Login -->
-    <test started-at="2022-11-08T23:26:44 IST" name="Reports" finished-at="2022-11-08T23:28:03 IST" duration-ms="79761">
-      <class name="actitime.LeaveReportTest">
-        <test-method is-config="true" signature="setBeforeMethod()[pri:0, instance:actitime.LeaveReportTest@52f27fbd]" started-at="2022-11-08T23:28:02 IST" name="setBeforeMethod" finished-at="2022-11-08T23:28:02 IST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
-at actitime.pageobjects.LoginPage.loginAction(LoginPage.java:33)
-at actitime.LeaveReportTest.setBeforeMethod(LeaveReportTest.java:17)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBeforeMethod -->
-        <test-method signature="testLeaveReport()[pri:0, instance:actitime.LeaveReportTest@52f27fbd]" started-at="2022-11-08T23:28:02 IST" name="testLeaveReport" finished-at="2022-11-08T23:28:02 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
-at actitime.pageobjects.LoginPage.loginAction(LoginPage.java:33)
-at actitime.LeaveReportTest.setBeforeMethod(LeaveReportTest.java:17)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLeaveReport -->
-      </class> <!-- actitime.LeaveReportTest -->
-      <class name="actitime.AttendenceReportTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:actitime.AttendenceReportTest@45d84a20]" started-at="2022-11-08T23:26:44 IST" name="setUp" finished-at="2022-11-08T23:26:57 IST" duration-ms="13306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setBeforeMethod()[pri:0, instance:actitime.AttendenceReportTest@45d84a20]" started-at="2022-11-08T23:26:57 IST" name="setBeforeMethod" finished-at="2022-11-08T23:27:44 IST" duration-ms="47191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBeforeMethod -->
-        <test-method signature="testAttendenceReport()[pri:0, instance:actitime.AttendenceReportTest@45d84a20]" started-at="2022-11-08T23:27:44 IST" name="testAttendenceReport" finished-at="2022-11-08T23:28:02 IST" duration-ms="18215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAttendenceReport -->
-        <test-method is-config="true" signature="afterAll()[pri:0, instance:actitime.AttendenceReportTest@45d84a20]" started-at="2022-11-08T23:28:02 IST" name="afterAll" finished-at="2022-11-08T23:28:03 IST" duration-ms="1021" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterAll -->
-      </class> <!-- actitime.AttendenceReportTest -->
-    </test> <!-- Reports -->
-    <test started-at="2022-11-08T23:28:03 IST" name="Timesheets" finished-at="2022-11-08T23:29:35 IST" duration-ms="91862">
-      <class name="actitime.ViewTimeTrackTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:actitime.ViewTimeTrackTest@66982506]" started-at="2022-11-08T23:28:03 IST" name="setUp" finished-at="2022-11-08T23:28:17 IST" duration-ms="13442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setBeforeMethod()[pri:0, instance:actitime.ViewTimeTrackTest@66982506]" started-at="2022-11-08T23:28:17 IST" name="setBeforeMethod" finished-at="2022-11-08T23:29:04 IST" duration-ms="46802" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBeforeMethod -->
-        <test-method signature="testApproveFilter()[pri:0, instance:actitime.ViewTimeTrackTest@66982506]" started-at="2022-11-08T23:29:04 IST" name="testApproveFilter" finished-at="2022-11-08T23:29:19 IST" duration-ms="15474" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testApproveFilter -->
-        <test-method signature="testReadyForApproveFilter()[pri:0, instance:actitime.ViewTimeTrackTest@66982506]" started-at="2022-11-08T23:29:19 IST" name="testReadyForApproveFilter" finished-at="2022-11-08T23:29:35 IST" duration-ms="15349" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testReadyForApproveFilter -->
-        <test-method is-config="true" signature="afterAll()[pri:0, instance:actitime.ViewTimeTrackTest@66982506]" started-at="2022-11-08T23:29:35 IST" name="afterAll" finished-at="2022-11-08T23:29:35 IST" duration-ms="781" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterAll -->
-      </class> <!-- actitime.ViewTimeTrackTest -->
-    </test> <!-- Timesheets -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

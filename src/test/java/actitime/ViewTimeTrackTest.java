@@ -12,7 +12,7 @@ public class ViewTimeTrackTest extends TestBase {
 	@BeforeClass
 	public void setBeforeMethod() throws InterruptedException {
 		LoginPage loginPage = new LoginPage(driver);
-		loginPage.loginAction("admin", "manager");
+		loginPage.loginAction(propertyFileReader.get("app.username"), propertyFileReader.get("app.password"));
 		Thread.sleep(5000);
 
 		SubmitTimeTrackPage submitTimeTrackPage = new SubmitTimeTrackPage(driver);
