@@ -20,7 +20,7 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize();
 		driver.get("https://demo.actitime.com/login.do");
-		Thread.sleep(5000);
+		Thread.sleep(15000);
 
 	}
 
